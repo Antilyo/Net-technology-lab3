@@ -14,7 +14,7 @@ namespace Net_technology_lab3
             {
                 if (numbers == null)
                 {
-                    throw new ArgumentNullException("Помилка! Масив не може бути null.");
+                    throw new ArgumentNullException(nameof(numbers), "Помилка! Масив не може бути null.");
                 }
 
                 if (numbers.Length == 0)
